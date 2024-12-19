@@ -460,7 +460,7 @@ Js TABLE OF CONTENTS
           nav: false,
           pagination :false,
           center: true,
-          autoplay: false,
+          autoplay: true,
           dots: false,  
           autoplayHoverPause: true,
           responsiveClass:true,
