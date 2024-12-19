@@ -8045,7 +8045,7 @@ h6 {
 
 @media (max-width: 450px) {
     .offcanvas__info {
-        width: 300px;
+        width: 355px;
     }
 }
 
@@ -8908,7 +8908,7 @@ h6 {
 .counter-box-wrapper.style2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 60px;
 }
 
 @media (max-width: 1399px) {
@@ -8986,7 +8986,7 @@ h6 {
 .counter-box.style2 h6 {
     color: var(--title-color);
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -16324,3 +16324,54 @@ input.main-search-input::placeholder {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+@media(max-width:480px){
+    .header-4 .header-main {
+        padding: 10px 10px;
+    }
+    .hero-main-container.style2{
+        padding: 160px 0 73px;  
+    }
+    .hero-thumb.style2 .main-thumb img{
+        border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+    }
+    .hero-thumb.style2 .video-box img{
+        max-width: 50%;
+    }
+    .fancy-box-wrapper{
+        display: none !important;
+    }
+    .hero-content.style2 h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .header-4 {
+        margin-top: 0px;
+    }
+    .play-btn:after, .play-btn:before{
+        width: 80px;
+        height: 80px;
+    }
+    .hero-thumb.style2 .video-box {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        z-index: 2;
+    }
+    .contact-info-area{
+        padding: 15px 15px;
+    }
+    .contact-info-area .contact-info-items {
+        flex-wrap: initial;
+    }
+    .section-title .title{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .offcanvas__logo a img {
+        width: 55px;
+    }
+}
