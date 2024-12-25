@@ -4948,6 +4948,12 @@ h6 {
     .contact-info-area {
         gap: 30px;
     }
+    .contact-info-area {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 25px;
+    }
+
 }
 
 .contact-info-area .contact-info-items {
