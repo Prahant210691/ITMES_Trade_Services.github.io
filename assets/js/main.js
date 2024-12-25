@@ -662,7 +662,7 @@ Js TABLE OF CONTENTS
 
             var sliderDefault = {
                 slidesPerView: 1,
-                spaceBetween: settings['spaceBetween'] ? settings['spaceBetween'] : 24,
+                spaceBetween: settings['spaceBetween'] ? settings['spaceBetween'] : 15,
                 loop: settings['loop'] == false ? false : true,
                 speed: settings['speed'] ? settings['speed'] : 1000,
                 initialSlide: settings['initialSlide'] ? settings['initialSlide'] : 0, // Default to 0 if not set
