@@ -9507,7 +9507,7 @@ h6 {
 .work-process-container-wrapper.style2 .shape {
     position: absolute;
     bottom: 0;
-    left: 49.8%;
+    left: 49.9%;
     transform: translateX(-49.8%);
     z-index: 3;
     -webkit-transform: translateX(-49.8%);
@@ -9518,7 +9518,7 @@ h6 {
 
 @media (max-width: 1899px) {
     .work-process-container-wrapper.style2 .shape {
-        left: 57.6%;
+        left: 50.3%;
         transform: translateX(-57.6%);
         -webkit-transform: translateX(-57.6%);
         -moz-transform: translateX(-57.6%);
