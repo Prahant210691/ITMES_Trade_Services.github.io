@@ -9509,7 +9509,7 @@ h6 {
 
 .work-process-container-wrapper.style2 .shape {
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: 49.9%;
     transform: translateX(-49.8%);
     z-index: 3;
@@ -9517,6 +9517,9 @@ h6 {
     -moz-transform: translateX(-49.8%);
     -ms-transform: translateX(-49.8%);
     -o-transform: translateX(-49.8%);
+    background: #fff;
+    border-radius: 100px;
+    padding: 13px;
 }
 
 @media (max-width: 1899px) {
@@ -9527,6 +9530,9 @@ h6 {
         -moz-transform: translateX(-57.6%);
         -ms-transform: translateX(-57.6%);
         -o-transform: translateX(-57.6%);
+        background: #fff;
+        border-radius: 100px;
+        padding: 13px;
     }
 }
 
@@ -9540,7 +9546,8 @@ h6 {
     position: relative;
     background: var(--theme);
     width: 100%;
-    height: 759px;
+/*    height: 759px;*/
+    height: 100%;
     -webkit-clip-path: url(#workprocessdMask1);
     clip-path: url(#workprocessdMask1);
     transition: all 0.4s;
@@ -9548,6 +9555,7 @@ h6 {
     -moz-transition: all 0.4s;
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
+        padding: 70px 50px;
 }
 
 @media (max-width: 1399px) {
