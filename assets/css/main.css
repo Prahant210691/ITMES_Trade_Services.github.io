@@ -16442,3 +16442,62 @@ input.main-search-input::placeholder {
         width: 55px;
     }
 }
+
+.why_india {
+    position: relative;
+    display: block;
+    background-color: #2d084857;
+    padding: 60px 60px 60px;
+    border-radius: 20px;
+    margin-top: 75px !important;
+    z-index: 99;
+    margin: 0 auto;
+    width: 80%;
+}
+.why_india .event-direction__left {
+    position: relative;
+    display: block;
+}
+.why_india .event-direction__left .section-title {
+    margin-bottom: 4px;
+    position: relative;
+    display: block;
+    margin-top: -5px;
+}
+.why_india .event-direction__left p{
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.why_india .section-title__title {
+margin: 0;
+color: var(--eventflow-white);
+font-size: 35px;
+line-height: 40px;
+font-weight: 700;
+text-transform: capitalize;
+margin-bottom: 25px;
+}
+.why_india .read_more_btn{
+z-index: 1;
+font-weight: 600;
+overflow: hidden;
+padding: 10px 35px;
+text-align: center;
+position: relative;
+border-radius: 50px;
+display: -webkit-inline-box;
+display: -ms-inline-flexbox;
+display: inline-flex;
+font-size: 14px;
+text-transform: uppercase;
+/*    background: #ffbe30;*/
+background: linear-gradient(to bottom right, #da7eff, #744587) !important;
+color: #ffffff !important;
+-webkit-box-shadow: 0 5px 60px 5px rgba(0, 0, 0, 0.2);
+/* box-shadow: 0 5px 60px 5px rgba(0, 0, 0, 0.2); */
+box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+}
+.why_india .event-direction__right{
+    text-align: right;
+}
