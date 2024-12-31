@@ -12404,9 +12404,9 @@ h6 {
     border-radius: 50%;
     border: 3px solid rgba(0, 0, 0, 0.2);
     border-top-color: var(--theme);
-    height: 9em;
-    margin: 0 auto 3.5em auto;
-    width: 9em;
+    height: 7em;
+    margin: 0 auto 0.5em auto;
+    width: 7em;
 }
 
 @media (max-width: 767px) {
@@ -16444,5 +16444,19 @@ input.main-search-input::placeholder {
     }
     .offcanvas__logo a img {
         width: 55px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.1) { 
+    .work-process-container-wrapper.style2 .shape {
+        left: 49.9%;
+        transform: translateX(-49.9%);
+        
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25) {
+    .work-process-container-wrapper.style2 .shape {
+        left: 57.2%;
+        transform: translateX(-57.2%);
     }
 }
