@@ -532,7 +532,31 @@ Js TABLE OF CONTENTS
               items: 4
             }
           }
+        });
+        
+        $('.testimonial-slider').owlCarousel({
+          loop: true,
+          margin: 35,
+          nav: false,
+          pagination :false,
+          center: false,
+          autoplay: true,
+          dots: false,  
+          autoplayHoverPause: true,
+          responsiveClass:true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 3
+            },
+            1000: {
+              items: 3
+            }
+          }
         })
+
 
         //>> Team Hover Image Show Slider Start <<//
         const teamItems = document.querySelectorAll(".team-items");
