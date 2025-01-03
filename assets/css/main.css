@@ -8,7 +8,8 @@ Version: 1.0.0
 
 /*CSS Table Of Content Ends Here*/
 
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rajdhani:wght@300;400;500;600;700&display=swap");*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@100;200;300;400;500;600;700;800;900');
 :root {
     --body: #fff;
     --black: #000;
@@ -41,8 +42,10 @@ Version: 1.0.0
     --text-color: #445375;
     --text-color2: #4F536C;
     --border-color: #D4DCFF;
-    --title-font: "Rajdhani", sans-serif;
-    --body-font: "Plus Jakarta Sans", sans-serif;
+/*    --title-font: "Rajdhani", sans-serif;*/
+    --title-font: 'Poppins', sans-serif;
+/*    --body-font: 'Poppins', sans-serif;*/
+    --body-font: 'Poppins', sans-serif;
     --icon-font: "Font Awesome 6 Pro";
     --main-container: 1410px;
     --container-gutters: 30px;
@@ -2156,7 +2159,7 @@ input {
     background-color: transparent;
     font-size: 16px;
     width: 100%;
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: 0.4s ease-in-out;
     border-radius: 0px;
 }
@@ -2528,7 +2531,7 @@ label {
     margin-top: -0.3em;
     display: block;
     color: var(--title-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
 
@@ -2591,7 +2594,7 @@ body {
 }
 
 body {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: var(--body-color);
@@ -2733,7 +2736,7 @@ ins {
 }
 
 pre {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #f5f5f5;
     color: #666;
     font-size: 14px;
@@ -2750,7 +2753,7 @@ p:empty {
 }
 
 p {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
     color: var(--text-color);
     line-height: 1.75;
@@ -5225,7 +5228,7 @@ h6 {
     right: 90px;
     max-width: 430px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 22px;
     background: var(--theme);
     border-radius: 0px 0px 8px 8px;
     -webkit-border-radius: 0px 0px 8px 8px;
@@ -5268,19 +5271,19 @@ h6 {
 
 .contact-info-wrapper.style2 .contact-info.style2 .content h3 {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 28px;
 }
 
 .contact-info-wrapper.style2 .contact-info.style2 .content h3 a {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 28px;
 }
 
@@ -5343,7 +5346,7 @@ h6 {
     border-radius: 8px;
     border: 1px solid #D4DCFF;
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -5363,7 +5366,7 @@ h6 {
     border-radius: 8px;
     border: 1px solid #D4DCFF;
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -5647,7 +5650,7 @@ h6 {
 
 .cta-wrap.style1 .section-title .subtitle {
     color: var(--white);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -5658,7 +5661,7 @@ h6 {
 .cta-wrap.style1 .section-title .title {
     color: var(--white);
     font-family: "Rajdhani", sans-serif;
-    font-size: 36px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 46px;
@@ -6696,7 +6699,7 @@ h6 {
 
 .gt-widget-about .about-text {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -6725,7 +6728,7 @@ h6 {
 
 .widget.widget_nav_menu.footer-widget .menu-all-pages-container .menu li a {
     color: rgba(255, 255, 255, 0.9);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -6807,7 +6810,7 @@ h6 {
 
 .recent-post-wrap .recent-post .media-body .recent-post-meta a {
     color: rgba(255, 255, 255, 0.8);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6838,7 +6841,7 @@ h6 {
 
 .recent-post-wrap .recent-post .media-body .post-title a {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -6877,7 +6880,7 @@ h6 {
     display: inline-block;
     color: var(--white-color);
     text-align: right;
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -7191,7 +7194,7 @@ h6 {
 .header-main .main-menu ul li a {
     display: inline-block;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--header);
     padding: 20px 0;
     text-align: left;
@@ -8665,7 +8668,7 @@ h6 {
 .fancy-box.style1 .item p {
     margin-bottom: 0;
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -8703,7 +8706,7 @@ h6 {
     font-family: var(--title-font);
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 22px;
     text-transform: capitalize;
     max-width: 100%;
@@ -8767,7 +8770,7 @@ h6 {
 
 .fancy-box.style4 .item-wrap .item h6 {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -8813,7 +8816,7 @@ h6 {
 
 .fancy-box.style5 .item-wrap .item h6 {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -8962,7 +8965,7 @@ h6 {
 
 .counter-box.style1 h6 {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -9010,7 +9013,7 @@ h6 {
 
 .counter-box.style2 h6 {
     color: var(--title-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -9049,7 +9052,7 @@ h6 {
 
 .checklist.style1 li {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -9466,7 +9469,7 @@ h6 {
     background: transparent;
     -webkit-text-stroke: 2px rgba(255, 255, 255, 0.2);
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
@@ -9481,7 +9484,7 @@ h6 {
 
 .work-process-card.style1 .title {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -9491,7 +9494,7 @@ h6 {
 
 .work-process-card.style1 .text {
     color: rgba(255, 255, 255, 0.8);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -9965,7 +9968,7 @@ h6 {
     display: inline-block;
     padding: 10px 16px;
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -10010,7 +10013,7 @@ h6 {
 
 .hero-content.style1 .text {
     color: var(--white);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -10026,7 +10029,7 @@ h6 {
 
 .hero-content.style1 .contact-meta h6 {
     color: var(--white);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -10037,7 +10040,7 @@ h6 {
 
 .hero-content.style1 .contact-meta h6 a {
     color: var(--white);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -10050,7 +10053,7 @@ h6 {
     display: inline-block;
     padding: 10px 16px;
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -10102,7 +10105,7 @@ h6 {
 
 .hero-content.style2 .text {
     color: var(--white);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -10118,7 +10121,7 @@ h6 {
 
 .hero-content.style2 .contact-meta h6 {
     color: var(--white);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -10129,7 +10132,7 @@ h6 {
 
 .hero-content.style2 .contact-meta h6 a {
     color: var(--white);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -11551,7 +11554,7 @@ h6 {
     padding: 10px 16px;
     display: inline-block;
     color: var(--theme);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -11579,7 +11582,7 @@ h6 {
 
 .blog-card.style1 .blog-card-body .blog-meta .date {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -11678,7 +11681,7 @@ h6 {
     padding: 10px 16px;
     display: inline-block;
     color: var(--theme);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -11694,7 +11697,7 @@ h6 {
 
 .blog-card.style2 .blog-card-body .blog-meta .date {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -12065,7 +12068,7 @@ h6 {
 
 .pricing-wrapper .tab-section .nav-pills .nav-link {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -12092,7 +12095,7 @@ h6 {
 
 .pricing-wrapper .tab-section .save {
     color: var(--theme);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -12153,7 +12156,7 @@ h6 {
 
 .pricing-card.style1 .pricing-card_header .item .price span {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -12218,7 +12221,7 @@ h6 {
 
 .pricing-card.style2 .pricing-card_header .item .price span {
     color: var(--white-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -12346,7 +12349,7 @@ h6 {
 
 .pricing-card.style3 .pricing-card_header .item .price span {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -12362,7 +12365,7 @@ h6 {
 .pricing-card.style3 .pricing-card_body .checklist-wrapper p {
     color: var(--text-color);
     text-align: center;
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -12418,7 +12421,7 @@ h6 {
 }
 
 .preloader .animation-preloader .txt-loading {
-    font: bold 5em "Rajdhani", sans-serif, "Plus Jakarta Sans", sans-serif;
+    font: bold 5em "Rajdhani", sans-serif, 'Poppins', sans-serif;
     text-align: center;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -13427,7 +13430,7 @@ input.main-search-input::placeholder {
 
 .project-content.style1 .project-content-left p {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -13491,7 +13494,7 @@ input.main-search-input::placeholder {
 
 .project-card.style2 .project-mask-wrapper .project-desc h6 {
     color: var(--theme);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -13664,13 +13667,13 @@ input.main-search-input::placeholder {
     display: flex;
     align-items: center;
     color: var(--theme);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .section-title .subtitle span {
@@ -13680,10 +13683,10 @@ input.main-search-input::placeholder {
 .section-title .title {
     color: var(--title-color);
     font-family: var(--title-font);
-    font-size: 48px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 45px;
     letter-spacing: -0.96px;
     text-transform: capitalize;
 }
@@ -14461,7 +14464,7 @@ input.main-search-input::placeholder {
 
 .service-card.style1 .body p {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -14549,7 +14552,7 @@ input.main-search-input::placeholder {
 .service-card.style2 .body h3 a {
     color: var(--title-color);
     font-family: var(--title-font);
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
@@ -14566,7 +14569,7 @@ input.main-search-input::placeholder {
 
 .service-card.style2 .body p {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -15433,7 +15436,7 @@ input.main-search-input::placeholder {
 .team-card.style1 .team-content p {
     color: var(--text-color);
     text-align: center;
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -15499,7 +15502,7 @@ input.main-search-input::placeholder {
 
 .team-card.style2 .team-card-body .team-content p {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -16377,7 +16380,7 @@ input.main-search-input::placeholder {
 
 .wcu-card.style2 .wcu-content p {
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

@@ -1,3 +1,9 @@
+.header-4.inner_pages{
+    margin-top: 5px;
+}
+.header-4.inner_pages.sticky{
+    margin-top: 0px;
+}
 .mb_120{
     margin-bottom: 120px;
 }
@@ -272,7 +278,7 @@
 }
 .whyattend h2.section-heading {
     color: white;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
 }
 .whyattend img.star-img {
@@ -872,13 +878,11 @@ Testimonial css
     padding: 100px 0;
 }
 .Gallery_section .project__menu-nav{
-    gap: 15px 15px;
-    margin-bottom: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px 35px;
-    margin-bottom: 60px;
+    gap: 15px 10px;
+    margin-bottom: 40px;
     flex-wrap: wrap;
 }
 .project__thumb-two img{
@@ -888,9 +892,9 @@ Testimonial css
     object-fit: cover;
 }
 .Gallery_section .project__menu-nav button{
-    color: #fff;
+    color: #464646;
     border: 1px solid #343a40;
-    padding: 10px 10px;
+    padding: 5px 10px;
     width: auto;
     min-width: 130px;
     border-radius: 5px;
@@ -903,6 +907,11 @@ Testimonial css
 .Gallery_section .project__menu-nav button.active::before, .Gallery_section .project__menu-nav button:hover::before{
     display: none;
 }
+.filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
 .galllary_img_div{
     position: relative;
     z-index: 1;
@@ -913,6 +922,7 @@ Testimonial css
     height: 200px;
     border-radius: 3px;
     object-fit: cover;
+    border: 1px solid #d1d1d1;
 }
 .galllary_img_div .portfolio-lightbox i{
     display: none;
@@ -954,3 +964,70 @@ Testimonial css
     text-align: center;
     padding: 15px 15px;
 }
+/*--------------------------------------------------*/
+.work-process-container-wrapper.style2{
+    position: relative;
+}
+.work-process-container-wrapper.style2 .shape{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    -webkit-transform: translateX(-50%);
+    background: #fff;
+    border-radius: 120px;
+    padding: 10px;
+}
+/*------------------------------------------------------*/
+/*.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+} */
