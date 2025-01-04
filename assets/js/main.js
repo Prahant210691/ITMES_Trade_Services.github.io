@@ -274,7 +274,7 @@ Js TABLE OF CONTENTS
         //>> Project Slider Start <<// 
         const projectSlider2 = new Swiper(".project-slider-2", {
             spaceBetween: 30,
-            speed: 1500,
+            speed: 3000,
             loop: true,
             autoplay: {
                 delay: 1500,
@@ -290,7 +290,7 @@ Js TABLE OF CONTENTS
             },
             breakpoints: {
                 1199: {
-                    slidesPerView: 3,
+                    slidesPerView: 4,
                 },
                 991: {
                     slidesPerView: 2,

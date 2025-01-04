@@ -2965,7 +2965,7 @@ h6 {
     position: absolute;
     bottom: 30px;
     left: -50px;
-    z-index: 1;
+    z-index: 2;
 }
 
 @media (max-width: 575px) {
@@ -6257,7 +6257,7 @@ h6 {
     text-align: center;
     z-index: 9;
     padding: 30px 10px;
-    padding-top: 1px;
+    padding-top: 30px;
 }
 
 .offer-items::before {
@@ -6269,11 +6269,12 @@ h6 {
     width: 100%;
     height: 100%;
     content: "";
-    border: 1px solid var(--white);
+    border: 2px dashed var(--white);
     opacity: 0.3;
     border-radius: 8px;
     top: 0;
     z-index: -1;
+    background: #9754b3;
 }
 
 .offer-items .icon {
@@ -6282,9 +6283,8 @@ h6 {
     line-height: 70px;
     text-align: center;
     border-radius: 50%;
-    background: linear-gradient(180deg, #3C72FC -210.71%, #00060C 100%);
+/*    background: linear-gradient(180deg, #3C72FC -210.71%, #00060C 100%);*/
     margin: 0 auto;
-    margin-top: -35px;
     transition: all 0.4s ease-in-out;
 }
 
@@ -6294,6 +6294,8 @@ h6 {
 
 .offer-items .content h5 {
     color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .offer-items .shape-top {
@@ -6710,10 +6712,10 @@ h6 {
 .widget.widget_nav_menu.footer-widget .widget_title {
     color: var(--white-color);
     font-family: var(--title-font);
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 20px;
     text-transform: capitalize;
 }
 
@@ -7234,8 +7236,8 @@ h6 {
 .header-main .main-menu ul li .submenu li a {
     position: relative;
     z-index: 11;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     color: var(--header);
     padding: 0 25px;
     padding-bottom: 11px;
@@ -8130,7 +8132,7 @@ h6 {
 
 .breadcrumb-wrapper .page-heading h1 {
     color: var(--white);
-    font-size: 65px;
+    font-size: 55px;
     position: relative;
     z-index: 9;
 }
@@ -8364,6 +8366,7 @@ h6 {
     background-size: cover;
     position: relative;
     background-position: center;
+    z-index: 1;
 }
 
 .nice-select {
@@ -12728,14 +12731,14 @@ input.main-search-input::placeholder {
     bottom: 25px;
     left: 25px;
     right: 25px;
-    padding: 35px 30px;
+    padding: 20px 20px;
     background-color: var(--white);
     overflow: hidden;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .project-items .project-image .project-content.style2::before {
@@ -12762,6 +12765,8 @@ input.main-search-input::placeholder {
 
 .project-items .project-image .project-content.style2 h4 a {
     color: var(--title-color);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .project-items .project-image .project-content.style2 h4 a:hover {
@@ -12879,6 +12884,7 @@ input.main-search-input::placeholder {
 
 .project-section-2 {
     position: relative;
+    margin-bottom: 120px;
 }
 
 .project-section-2::before {
@@ -12890,7 +12896,7 @@ input.main-search-input::placeholder {
     width: 100%;
     height: 100%;
     content: "";
-    background-color: var(--bg2);
+    background-color: #744587;
     height: 35%;
     z-index: -1;
 }
@@ -12956,9 +12962,9 @@ input.main-search-input::placeholder {
 }
 
 .project-wrapper .project-items.style-2 .project-content .arrow-icon {
-    width: 85px;
+    width: 50px;
     height: 100%;
-    line-height: 130px;
+    line-height: 90px;
     background-color: rgba(56, 75, 255, 0.1);
     text-align: center;
     color: var(--theme);
