@@ -23,6 +23,17 @@
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/custom_styles.css" />
+    <style>
+        .header-4 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+            width: 100%;
+            margin-top: 0px;
+            background: #744587;
+        }
+    </style>
 </head>
 
 <body>
@@ -210,60 +221,153 @@
         </div>
     </header>
 
-    <!-- Search Area Start -->
-    <div class="search-wrap">
-        <div class="search-inner">
-            <i class="fas fa-times search-close" id="search-close"></i>
-            <div class="search-cell">
-                <form method="get">
-                    <div class="search-field-holder">
-                        <input type="search" class="main-search-input" placeholder="Search...">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
-        <div class="border-shape">
-            <img src="assets/img/element_1.png" alt="shape-img">
-        </div>
-        <div class="line-shape">
-            <img src="assets/img/line-element.png" alt="shape-img">
-        </div>
+    <section class="registration_form">
         <div class="container">
-            <div class="page-heading">
-                <h1 class="wow fadeInUp" data-wow-delay=".3s">Media Kit</h1>
-                <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
-                    <li><a href="index.html">Home</a></li>
-                    <li><i class="fas fa-chevron-right"></i></li>
-                    <li><a href="#">News & PR</a></li>
-                    <li><i class="fas fa-chevron-right"></i></li>
-                    <li>Media Kit</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <section class="Media_kit">
-        <div class="container">
-            <div class="row mt_40">
+            
+            <div class="row mt-15">
                 <div class="col-md-12">
-                    <div class="GoodwillMessages_grid_View">
-                        <div class="main_div">
-                            <img src="assets/img/media_kit_1.png">
-                            <div class="content_div">
-                                <p>India ITME 2022 Logo</p>
-                                <a href="assets/img/media_kit_1.png" class="read_more_btn" style="width: auto;" target="_blank" download="img.png">Download</a>
+                    <div class="card">
+                        <div class="card-body custom_form_fields pt-3">
+                            <div class="row mb-40">
+                                <div class="col-md-12 text-center">
+                                    <h5>ENQUIRY FORM DRAFT</h5>
+                                </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Company Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter Company name" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Membership type</label>
+                                        <select class="form-control">
+                                            <option value="0">Select Membership type</option>
+                                            <option value="Corporate">Corporate</option>
+                                            <option value="Associate">Associate</option>
+                                            <option value="Associate Limited">Associate Limited</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Salutation</label>
+                                        <select class="form-control">
+                                            <option value="0">Select Salutation</option>
+                                            <option value="1">Mr</option>
+                                            <option value="2">Ms</option>
+                                            <option value="3">Mrs</option>
+                                            <option value="4">Prof</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>First Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter First Name" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Last Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter Last Name" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Designation</label>
+                                        <input type="text" class="form-control" placeholder="Enter Designation" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Country</label>
+                                        <input type="text" class="form-control" placeholder="Enter Country" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Phone</label>
+                                        <input type="text" class="form-control" placeholder="Enter Phone no" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Mobile</label>
+                                        <input type="text" class="form-control" placeholder="Enter Mobile no" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Enterprise type</label>
+                                        <select class="form-control">
+                                            <option value="0">Select Enterprise type</option>
+                                            <option value="1">Micro</option>
+                                            <option value="2">Small</option>
+                                            <option value="3">Medium</option>
+                                            <option value="4">Large</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Business/Industry Segments</label>
+                                        <input type="text" class="form-control" placeholder="Enter Mobile no" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Are you a registered user?</label>
+                                        <select class="form-control">
+                                            <option value="0">Select</option>
+                                            <option value="1">Yes</option>
+                                            <option value="2">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Your query for service</label>
+                                        <select class="form-control">
+                                            <option value="0">Select Service</option>
+                                            <option value="1">Trade Missions</option>
+                                            <option value="2">Exhibition participation</option>
+                                            <option value="3">Trade enquiry</option>
+                                            <option value="4">Knowledge sessions</option>
+                                            <option value="5">Others</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Message/Query</label>
+                                        <input type="text" class="form-control" placeholder="Address line 2" />
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <a href="javascript:void(0)" class="btn btn-primary save_btn">Submit</a>
+                                </div>
+                            </div>
+
+                    
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
 
         </div>
-   </section>
+    </section>
 
+    
     <!--<< Footer Section Start >>-->
     <footer class="footer-section pt-100 bg-theme-color2">
         <div class="widget-area style1  pb-40">
@@ -393,9 +497,9 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!--<< Wow Animation Js >>-->
     <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/scrollable_tab.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
-    
     
 </body>
 

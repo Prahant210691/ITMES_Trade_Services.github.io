@@ -2152,12 +2152,10 @@ select,
 .form-select,
 textarea,
 input {
-    height: 56px;
-    padding: 0 20px;
     border: 1px solid var(--border-color);
     color: var(--body-color);
     background-color: transparent;
-    font-size: 16px;
+    font-size: 13px;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     transition: 0.4s ease-in-out;
@@ -2218,7 +2216,7 @@ select {
     display: block;
     width: 100%;
     line-height: 56px;
-    height: 56px;
+/*    height: 56px;*/
     padding: 0 20px;
     font-size: 16px;
     cursor: pointer;
@@ -2327,7 +2325,8 @@ textarea.style2 {
 }
 
 .form-group {
-    margin-bottom: var(--bs-gutter-x);
+/*    margin-bottom: var(--bs-gutter-x);*/
+    margin-bottom: 15px;
     position: relative;
 }
 
@@ -2819,13 +2818,13 @@ h4 {
 
 .h5,
 h5 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
 }
 
 .h6,
 h6 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -8373,22 +8372,25 @@ h6 {
     background-color: transparent;
     width: unset;
     outline: none;
-    border-bottom: 2px solid var(--border-color) !important;
-    padding-bottom: 20px !important;
-    border: none;
-    border-radius: 0;
+/*    border-bottom: 2px solid var(--border-color) !important;*/
+/*    padding-bottom: 20px !important;*/
+/*    border: none;*/
+/*    border-radius: 0;*/
     padding: 0;
+    padding: .375rem .75rem;
+    font-size: 13px;
 }
-
+.nice-select:after{
+    height: 9px;
+    width: 9px;
+    margin-top: -6px;
+}
 .nice-select:hover {
-    border-bottom: 2px solid transparent;
-    border-color: var(--theme);
-    border-bottom: 2px solid transparent;
-    border-image-slice: 2;
+    border:1px solid var(--border-color);
 }
 
 .nice-select span {
-    font-size: 16px;
+    font-size: 13px;
     color: var(--text-color);
     text-transform: capitalize;
 }
@@ -8399,7 +8401,7 @@ h6 {
 
 .nice-select.open .list {
     background: var(--bg);
-    margin-top: 16px;
+    margin-top: 7px;
     width: 100%;
     text-transform: capitalize;
     color: var(--text-color);
@@ -8411,7 +8413,7 @@ h6 {
     color: var(--text-color);
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     border: none;
 }
 
@@ -9247,14 +9249,14 @@ h6 {
     cursor: pointer;
     display: block;
     position: relative;
-    padding-left: 25px;
+    padding-left: 0px;
     margin-bottom: 10px;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
     color: var(--white-color);
     font-family: var(--title-font);
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
@@ -9726,6 +9728,7 @@ h6 {
 
 .bg-theme-color2 {
     background: var(--theme2);
+    border-top: 2px solid #7f4994;
 }
 
 .bg-body-color {
