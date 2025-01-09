@@ -1614,6 +1614,7 @@ fieldset legend {
 .main_content_div{
     border:1px solid #d7d7d7;
     margin-top: 5px;
+    margin-bottom: 25px;
 }
 .payment_tab_main_div .content_grid{
     display: grid;
