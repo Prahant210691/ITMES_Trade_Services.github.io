@@ -313,6 +313,9 @@
                                         <input type="text" class="form-control" placeholder="Enter Mobile no" />
                                     </div>
                                 </div>
+                                
+                            </div>
+                            <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Enterprise type</label>
@@ -331,16 +334,20 @@
                                         <input type="text" class="form-control" placeholder="Enter Mobile no" />
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Are you a registered user?</label>
-                                        <select class="form-control">
+                                        <select class="form-control" id="privileges">
                                             <option value="0">Select</option>
-                                            <option value="1">Yes</option>
-                                            <option value="2">No</option>
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
                                         </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 registration_no_show_hide">
+                                    <div class="form-group">
+                                        <label>Registration No</label>
+                                        <input type="text" class="form-control" placeholder="Enter Registration no" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -551,6 +558,19 @@
     <script src="assets/js/scrollable_tab.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript">
+        $(".registration_no_show_hide").hide();
+
+
+        $('#privileges').on('change', function() {
+            if($(this).val() === 'Yes') {
+                $('.registration_no_show_hide').show();
+            } else {
+                $('.registration_no_show_hide').hide();
+            }
+        });
+    </script>
     
 </body>
 
