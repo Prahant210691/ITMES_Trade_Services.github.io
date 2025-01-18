@@ -458,10 +458,12 @@ Js TABLE OF CONTENTS
           loop: true,
           margin: 10,
           nav: false,
-          pagination :false,
+          // navigation:true,
+          // rewindNav:true,
+          pagination :true,
           center: true,
           autoplay: true,
-          dots: false,  
+          dots: true,  
           autoplayHoverPause: true,
           responsiveClass:true,
           responsive: {
@@ -475,7 +477,8 @@ Js TABLE OF CONTENTS
               items: 3
             }
           }
-        })
+        });
+       
 
         // $('#upcomming-event-carousel').owlCarousel({
         //     items:2,

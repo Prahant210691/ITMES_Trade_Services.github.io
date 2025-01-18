@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<!--<< Header Area >>-->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="ex-coders">
+    <meta name="description" content="Extech - IT Solution & Technology HTML Template">
+    <title>ITME - Ddomestic & International Textile Engineering Industry</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom_styles.css" />
+    <style type="text/css">
+        .Login_page {
+            background-color: #0A0E14;
+            padding: 90px 0;
+            position: relative;
+            background-image: none;
+            transition: none;
+            height: 100vh;
+        }
+        .Login_page::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+/*            background-image: url(assets/img/map_img_11.png);*/
+            background-image: url(assets/img/login_img.jpg);
+            opacity: 0.05;
+            border-radius: 0px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 0;
+            background-position: 0% 0%;
+            opacity: 0.8;
+        }
+        .Login_page .container{
+            position: relative;
+            z-index: 1;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .login_main_div{
+            width: 30%;
+            margin: 0 auto;
+        }
+        .login_main_div .login-wrap .logo_img_css {
+            max-height: 75px;
+            text-align: center;
+            align-items: center;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+        .login_main_div .login-wrap {
+          position: relative;
+          border: 1px solid #fff;
+          background: #fff;
+          border-radius: 5px;
+          box-shadow: 3px 3px 10px #333;
+          padding: 35px;
+        }
+        .login-wrap h2 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 2em;
+            margin-top: 10px;
+            color: #633076;
+        }
+        .login-wrap .form {
+          padding-top: 20px;
+          text-align: right;
+        }
+        .login-wrap .form input{
+            color: #633076;
+        }
+        .login-wrap .form input[type="text"],
+        .login-wrap .form input[type="password"]{
+          width: 100%;
+          margin-left: 0%;
+          margin-bottom: 25px;
+          height: 45px;
+          border-radius: 5px;
+          outline: 0;
+          -moz-outline-style: none;
+        }
+        .login-wrap .form a.login_btn{
+            display: inline-block;
+            width: 100% !important;
+            -moz-outline-style: none;
+            background: #633076;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 200;
+            cursor: pointer;
+            transition: box-shadow .4s ease;
+            text-transform: uppercase;
+            border-radius: 0;
+            margin-bottom: 15px;
+            /* width: 100%; */
+            height: 45px;
+            line-height: 34px;
+            text-align: center;
+        }
+        .login-wrap .form input[type="text"],
+        .login-wrap .form input[type="password"] {
+          border: 1px solid #bbb;
+          padding: 15px;
+          font-size: 14px;
+          border-radius: 0px;
+        }
+        .login-wrap .form input[type="text"]:focus,
+        .login-wrap .form input[type="password"]:focus {
+          border: 1px solid #633076;
+        }
+       
+        .login-wrap .form a.forgot_pass_css{
+            margin-top: 15px;
+            text-align: right;
+        }
+        .login-wrap .form a p {
+          padding-bottom: 10px;
+        }
+        .login-wrap .form button {
+            background: #633076;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 200;
+            cursor: pointer;
+            transition: box-shadow .4s ease;
+            text-transform: uppercase;
+            border-radius: 0;
+            margin-bottom: 15px;
+        }
+        .login-wrap .form button:hover {
+          box-shadow: 1px 1px 5px #555;
+        }
+        .login-wrap .form button:active {
+          box-shadow: 1px 1px 7px #222;
+        }
+
+        .Login_cont_div {
+            border: 1px solid #3A3B3D;
+            background: #11171F;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .Login_cont_div h5{
+
+        }
+        .Login_cont_div p{
+            margin-bottom: 0px;
+        }
+        .Organizer_login_div{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .Organizer_login_div a{
+            background: #FFA200;
+            padding: 10px 15px;
+            border-radius: 50px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        
+        @media(max-width:768px){
+            .login_main_div {
+                width: 60%;
+                margin: 0 auto;
+            }
+        }
+
+        @media(max-width:480px){
+            .login_main_div {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner">
+            </div>
+            <p class="text-center">Loading</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="Login_page">
+      <div class="container">
+        <div class="row" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-md-12 col-sm-12">
+                <div class="login_main_div">
+                    <div class="login-wrap">
+                        <img src="assets/img/logo_2.png" class="logo_img_css" />
+                        <h2>Login</h2>
+                        <div class="form">
+                            <input type="text" placeholder="Email Id" name="un" />
+                            <input type="password" placeholder="Password" name="pw" />
+                            <a href="user-list.html" class="btn btn-primary login_btn"> Sign in </a>
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#Forgot_password_pop" class="forgot_pass_css">Forgot Password</a>
+                        </div>
+
+                        
+                    </div>
+
+                    <!-- <div class="Login_cont_div">
+                        <h5>08th – 13th December 2022</h5>
+                        <p>India Exposition Mart Limited, Plot No. 25,27,28,29, Greater Noida, India</p>
+                    </div>
+
+                    <div class="Organizer_login_div">
+                        <a href="#" class="read_more_btn">Organizer Login</a>
+                    </div> -->
+                </div>
+                
+                
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="Forgot_password_pop">
+      <div class="modal-dialog custome_modal_dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="forgot_password_content">
+                <img src="assets/img/forgotPassword_img.png"/>
+                <h4>Forgot Password</h4>
+                <p>Enter your email id and we'll send you a link to reset your password</p>
+
+                <input type="text" class="form-control" placeholder="Enter Email Id" />
+                <a href="javascript:void(0)" class="submit_btn"> Submit </a>
+                <a href="javascript:void(0)" class="forgot_pass_css" data-bs-dismiss="modal"><i class="fa fa-arrow-left"></i> Back to Login</a>
+            </div>
+            
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--<< All JS Plugins >>-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="assets/js/main.js"></script>
+    
+    
+</body>
+
+</html>

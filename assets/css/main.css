@@ -3607,6 +3607,23 @@ h6 {
         bottom: -60px;
     }
 }
+@media (max-width: 480px) {
+    .about-container-wrapper.style2 .about-thumb .counter-area.style2 {
+        position: relative;
+        bottom: -20px;
+    }
+    .counter-box.style2 h3{
+        font-size: 20px;
+        line-height: 5px;
+    }
+    .counter-box.style2 h6 {
+        font-size: 13px !important;
+        line-height: 20px;
+    }
+    .counter-box-wrapper.style2{
+        height: 60px;
+    }
+}
 
 @keyframes rippleOne {
     70% {
@@ -5854,16 +5871,16 @@ h6 {
 }
 
 .faq-content .accordion-item .accordion-header .accordion-button {
-    font-weight: 600;
+    font-weight: 500;
     color: var(--theme);
     letter-spacing: -0.2px;
     border: 0;
-    border-radius: 0;
+    border-radius: 5px;
     box-shadow: none;
     background-color: var(--bg);
-    padding: 25px 30px 0;
+    padding: 10px 15px 0;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 16px;
     border: 1px solid var(--border-color);
     border: 1px solid transparent;
 }
@@ -5890,27 +5907,22 @@ h6 {
 .faq-content .accordion-item .accordion-header .accordion-button.collapsed {
     background-color: transparent;
     border: 1px solid var(--border-color);
-    padding: 25px 30px;
+    padding: 10px 15px;
     color: var(--header);
-    border-radius: 15px;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    border-radius: 5px;
 }
 
 .faq-content .accordion-item .accordion-collapse .accordion-body {
-    padding-right: 150px;
+    padding-right: 30px;
     padding-left: 30px;
     padding-top: 15px;
     color: var(--text-color);
     background-color: var(--bg);
-    border-radius: 0 0 15px 15px;
-    -webkit-border-radius: 0 0 15px 15px;
-    -moz-border-radius: 0 0 15px 15px;
-    -ms-border-radius: 0 0 15px 15px;
-    -o-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
 }
 
 @media (max-width: 1399px) {
@@ -7144,6 +7156,9 @@ h6 {
     justify-content: space-between;
     padding: 10px 0;
 }
+.header-middle{
+    width: 100%;
+}
 
 @media (max-width: 1899px) {
     .header-main {
@@ -7173,7 +7188,7 @@ h6 {
     position: relative;
     list-style: none;
     display: inline-block;
-    margin-inline-end: 40px;
+    margin-inline-end: 30px;
 }
 
 @media (max-width: 1199px) {
@@ -8592,8 +8607,22 @@ h6 {
 ----------------------------------------------*/
 
 .fancy-box-wrapper.style2 {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    width: 100%;
+}
+@media(max-width:480px){
+    .fancy-box-wrapper.style2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fancy-box-wrapper.style2 .fancy-box.style2{
+        border-radius: 5px;
+    }
+    .fancy-box-wrapper.style4{
+        display: none !important;
+    }
 }
 
 .fancy-box-wrapper.style3 {
@@ -8681,7 +8710,7 @@ h6 {
 }
 
 .fancy-box.style2 {
-    display: flex;
+/*    display: flex;*/
     padding: 8px;
     gap: 16px;
     border-radius: 10px;
@@ -12677,6 +12706,7 @@ input.main-search-input::placeholder {
     border-radius: 50%;
     transform: translateZ(0);
     visibility: hidden;
+    background-color: transparent !important;
 }
 
 .cursor-inner {
@@ -14535,6 +14565,7 @@ input.main-search-input::placeholder {
     -o-border-radius: 15px;
     height: 375px;
     overflow: auto;
+    position: relative;
 }
 
 .service-card.style2 .icon {
@@ -14594,6 +14625,9 @@ input.main-search-input::placeholder {
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
     -o-border-radius: 24px;
+        position: absolute;
+    left: 30px;
+    bottom: 30px;
 }
 
 .service-card.style2:hover {
@@ -16424,7 +16458,7 @@ input.main-search-input::placeholder {
         max-width: 50%;
     }
     .fancy-box-wrapper{
-        display: none !important;
+/*        display: none !important;*/
     }
     .hero-content.style2 h1 {
         font-size: 40px;
@@ -16455,7 +16489,7 @@ input.main-search-input::placeholder {
         line-height: 35px;
     }
     .offcanvas__logo a img {
-        width: 55px;
+        width: 150px;
     }
 }
 
