@@ -23,10 +23,6 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/custom_styles.css" />
 
-    <style type="text/css">
-        
-
-    </style>
 </head>
 
 <body>
@@ -74,59 +70,26 @@
                             </button>
                         </div>
                     </div>
-                    <p class="text d-none d-lg-block">
-                        Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                    </p>
-                    <div class="mobile-menu fix mb-3"></div>
-                    <!-- <div class="offcanvas__contact">
-                        <h4>Contact Info</h4>
+                    <div class="offcanvas__contact">
                         <ul>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon">
-                                    <i class="fal fa-map-marker-alt"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
-                                </div>
+                            <li class="has-dropdown active menu-thumb">
+                                <a href="user-list.html">User</a>
                             </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@azent.com"><span
-                                 class="mailto:info@example.com">info@example.com</span></a>
-                                </div>
+                            <li class="has-dropdown active menu-thumb">
+                                <a href="receipt-list.html">Receipt</a>
                             </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-clock"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
-                                </div>
+                            <li class="has-dropdown active menu-thumb">
+                                <a href="index.html">Proforma</a>
                             </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="far fa-phone"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
-                                </div>
+                            <li class="has-dropdown active menu-thumb">
+                                <a href="index.html">Tax Invoice</a>
+                            </li>
+                            <li class="has-dropdown active menu-thumb">
+                                <a href="index.html">Logout</a>
                             </li>
                         </ul>
-                        <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn text-center">
-                        <span>get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
-                     </a>
-                        </div>
-                        <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div> -->
+                      
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,7 +101,7 @@
         <div id="header-sticky" class="header-4">
             <div class="container">
                 <div class="mega-menu-wrapper">
-                    <div class="header-main">
+                    <div class="header-main custom_header">
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.html" class="header-logo">
@@ -153,40 +116,25 @@
                                 <div class="main-menu">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li class="has-dropdown active menu-thumb">
-                                                <a href="index.html">User</a>
-                                            </li>
-                                            <li class="has-dropdown active menu-thumb">
-                                                <a href="index.html">Receipt</a>
-                                            </li>
-                                            <li class="has-dropdown active menu-thumb">
-                                                <a href="index.html">Proforma</a>
-                                            </li>
-                                            <li class="has-dropdown active menu-thumb">
-                                                <a href="index.html">Tax Invoice</a>
-                                            </li>
-                                            <li class="has-dropdown active menu-thumb">
-                                                <a href="index.html">Logout</a>
-                                            </li>
-                                            <!-- <li>
-                                                <a href="#">
-                                                    News & PR <i class="fas fa-angle-down"></i>
+                                            <li>
+                                                <a href="javascript:void(0)" class="user_icon">
+                                                    <i class="fa fa-user-circle"></i>
                                                 </a>
                                                 <ul class="submenu">
+                                                    <li><a href="#">User</a></li>
+                                                    <li><a href="#">Receipt</a></li>
+                                                    <li><a href="#">Proforma</a></li>
+                                                    <li><a href="#">Tax Invoice</a></li>
                                                     <li><a href="#">Logout</a></li>
-                                                    <li><a href="#">Video Gallery</a></li>
-                                                    <li><a href="#">Media Coverage</a></li>
-                                                    <li><a href="#">Press Release</a></li>
-                                                    <li><a href="#">Media Kit</a></li>
                                                 </ul>
-                                            </li> -->
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div class="header__hamburger d-block d-xl-none my-auto">
                                 <div class="sidebar__toggle">
-                                    <i class="fas fa-bars"></i>
+                                    <i class="fa fa-user-circle"></i>
                                 </div>
                             </div>
                         </div>
@@ -274,88 +222,86 @@
           </div>
         
         </div>
-    
       
     </section>
 
     <div id="filter_modal" class="modal fade" role="dialog">
-    <div class="modal-dialog custome_modal_dialog modal_width">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h6 class="modal-title">Filter Records</h6>
-          <button type="button" class="close" data-bs-dismiss="modal"><i class="fa fa-times"></i></button>
-        </div>
-        <div class="modal-body custom_form_fields">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                  <label class="floating-label">Registration no</label>
-                  <input type="text" class="form-control floating-control" name="Name" />
-              </div>
+        <div class="modal-dialog custome_modal_dialog modal_width">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h6 class="modal-title">Filter Records</h6>
+              <button type="button" class="close" data-bs-dismiss="modal"><i class="fa fa-times"></i></button>
             </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                  <label class="floating-label">Company name</label>
-                  <input type="text" class="form-control floating-control" name="Name" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                  <label class="floating-label">Industry</label>
-                  <select class="form-control customSelect floating-control" name="branch" required>
-                      <option value="">Industry</option>
-                      <option value="1">Industry 1</option>
-                      <option value="2">Industry 2</option>
-                      <option value="3">Industry 3</option>
-                      <option value="4">Industry 4</option>
-                  </select>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                  <label class="floating-label">Person name</label>
-                  <input type="text" class="form-control floating-control" name="Name" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                  <label class="floating-label">Country</label>
-                  <select class="form-control customSelect floating-control" name="branch" required>
-                      <option value="">Country</option>
-                      <option value="1">Country 1</option>
-                      <option value="2">Country 2</option>
-                      <option value="3">Country 3</option>
-                      <option value="4">Country 4</option>
-                  </select>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                  <label class="floating-label">Status</label>
-                  <select class="form-control customSelect floating-control" name="branch" required>
-                      <option value="">Select Status</option>
-                      <option value="1">Status 1</option>
-                      <option value="2">Status 2</option>
-                      <option value="3">Status 3</option>
-                      <option value="4">Status 4</option>
-                  </select>
-              </div>
-            </div>
+            <div class="modal-body custom_form_fields">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <label class="floating-label">Registration no</label>
+                      <input type="text" class="form-control floating-control" name="Name" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <label class="floating-label">Company name</label>
+                      <input type="text" class="form-control floating-control" name="Name" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <label class="floating-label">Industry</label>
+                      <select class="form-control customSelect floating-control" name="branch" required>
+                          <option value="">Industry</option>
+                          <option value="1">Industry 1</option>
+                          <option value="2">Industry 2</option>
+                          <option value="3">Industry 3</option>
+                          <option value="4">Industry 4</option>
+                      </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <label class="floating-label">Person name</label>
+                      <input type="text" class="form-control floating-control" name="Name" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <label class="floating-label">Country</label>
+                      <select class="form-control customSelect floating-control" name="branch" required>
+                          <option value="">Country</option>
+                          <option value="1">Country 1</option>
+                          <option value="2">Country 2</option>
+                          <option value="3">Country 3</option>
+                          <option value="4">Country 4</option>
+                      </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <label class="floating-label">Status</label>
+                      <select class="form-control customSelect floating-control" name="branch" required>
+                          <option value="">Select Status</option>
+                          <option value="1">Status 1</option>
+                          <option value="2">Status 2</option>
+                          <option value="3">Status 3</option>
+                          <option value="4">Status 4</option>
+                      </select>
+                  </div>
+                </div>
 
+                
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-right">
+                  <button type="button" class="btn btn-default modal_custom_btn" data-bs-dismiss="modal">Search</button>
+                  <button type="button" class="btn btn-default modal_custom_btn" data-bs-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
             
           </div>
-          <div class="row">
-            <div class="col-md-12 text-right">
-              <button type="button" class="btn btn-default modal_custom_btn" data-bs-dismiss="modal">Search</button>
-              <button type="button" class="btn btn-default modal_custom_btn" data-bs-dismiss="modal">Cancel</button>
-            </div>
-          </div>
         </div>
-        
-      </div>
-
     </div>
-  </div>
 
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>

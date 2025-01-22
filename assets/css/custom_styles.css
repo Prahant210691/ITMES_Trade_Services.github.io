@@ -348,7 +348,7 @@
     background-position: bottom;
     position: relative;
 }
-.whyattend .left-gradient {
+/* .whyattend .left-gradient {
     position: absolute;
     width: 48%;
     z-index: 9;
@@ -357,7 +357,7 @@
     left: 0px;
     top: 0;
     background: linear-gradient(90deg, #1D052F 50.73%, rgba(29, 5, 47, 0) 100%);
-}
+} */
 .whyattend .why-attend-section {
     position: relative;
     z-index: 10;
@@ -452,9 +452,59 @@
     -webkit-border-radius: 100px;
     margin-top: 15px;
 }
+
+.whyregister{
+    display:inline-flex;
+    width:100%;
+}
+
+.whyregister_card.style2 {
+    padding: 15px;
+    margin:10px;
+    background: var(--white-color);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    height: 244px;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+}
+.whyregister_card.style2 h5{
+    font-size: 16px;
+}
+.whyregister_card .body{
+    margin-top: 45px;
+}
+
+.whyregister_card .icon img{
+    height:65px;
+    width:65px;
+}
+
+@media(max-width:768px){
+    .whyregister{
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+}
+
+
+
 @media(max-width:480px){
     .whyattend{
         padding: 30px;
+    }
+    .whyregister_card.style2{
+        height: auto;
     }
     .whyattend h2.section-heading{
         text-align: center;
@@ -1980,6 +2030,8 @@ fieldset legend {
     font-weight: 500;
     vertical-align: top;
 }
+
+
 .filter_btn{
     border: 1px solid #744587;
     width: 30px;
@@ -2015,6 +2067,24 @@ fieldset legend {
 .custom_table .hack2 table .ml-6{
     margin-left: 6px;
 }
+@media (max-width: 768px) {
+    .custom_table .hack2 {
+        overflow: auto;
+    }
+}
+@media (max-width: 480px) {
+    .custom_table .hack2 {
+        overflow-x: auto;
+    }
+    .pagination_grid {
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0rem;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
 .modal_width{
     min-width: 33%;
     max-width: 33%;
@@ -2043,3 +2113,18 @@ fieldset legend {
         max-width: 100%;
     }
 }
+/*----------------------------------------------------------------*/
+/*----------------- Afrer Login Css start -----------------*/
+.header-main.custom_header .main-menu ul li a.user_icon{
+    font-size: 29px;
+}
+.header-main.custom_header .main-menu ul li .submenu{
+    right: 0;
+    inset-inline-start: auto !important;
+}
+.header-main.custom_header .main-menu ul li:hover>.submenu{
+    right: 0;
+    inset-inline-start: auto !important;
+    transform: translateY(10px);
+}
+/*----------------- Afrer Login Css end -----------------*/
