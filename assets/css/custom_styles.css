@@ -2128,3 +2128,25 @@ fieldset legend {
     transform: translateY(10px);
 }
 /*----------------- Afrer Login Css end -----------------*/
+.enquiry_div{
+
+}
+.enquiry_div p{
+
+}
+.section-title span {
+    color: var(--theme);
+}
+.enquiry_div h2{
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+}
+.contact-form-wrapper.style1{
+    padding: 20px;
+}
