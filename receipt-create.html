@@ -191,7 +191,18 @@
             </div>
         </div>
     </header>
+    <style type="text/css">
+        .createReceipt_grid_div{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            column-gap: 1rem;
+            width: 100%;
+        }
+        .createReceipt_grid_div .input_fields{
 
+        }
+
+    </style>
     <section class="table_section">
         <div class="container">
           
@@ -208,36 +219,111 @@
                 <div class="card-body">
 
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-12">
+                            <div class="createReceipt_grid_div">
+                                <div class="input_fields">
+                                    <div class="form-group">
+                                        <label class="floating-label">Voucher Type</label>
+                                        <select class="form-control customSelect " name="branch" required>
+                                            <option value="">Industry</option>
+                                            <option value="1">Industry 1</option>
+                                            <option value="2">Industry 2</option>
+                                            <option value="3">Industry 3</option>
+                                            <option value="4">Industry 4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="input_fields">
+                                    <div class="form-group">
+                                        <label class="floating-label">Exhibitor</label>
+                                        <select class="form-control customSelect " name="branch" required>
+                                            <option value="">Industry</option>
+                                            <option value="1">Industry 1</option>
+                                            <option value="2">Industry 2</option>
+                                            <option value="3">Industry 3</option>
+                                            <option value="4">Industry 4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="input_fields">
+                                    <div class="form-group">
+                                        <label class="floating-label">Bank Account</label>
+                                        <select class="form-control customSelect " name="branch" required>
+                                            <option value="">Bank Account</option>
+                                            <option value="1">Bank Account 1</option>
+                                            <option value="2">Bank Account 2</option>
+                                            <option value="3">Bank Account 3</option>
+                                            <option value="4">Bank Account 4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="input_fields">
+                                    <div class="form-group">
+                                        <label class="floating-label">Currency</label>
+                                        <input type="text" class="form-control " placeholder="Currency" />
+                                    </div>
+                                </div>
+                                <div class="input_fields">
+                                    <div class="form-group">
+                                        <label class="floating-label">Con.Rate</label>
+                                        <input type="text" class="form-control " placeholder="Con.Rate" />
+                                    </div>
+                                </div>
+                                <div class="input_fields"></div>
+                                <div class="input_fields"></div>
+                                <div class="input_fields"></div>
+                            </div>
+                        </div>
+                    </div>
 
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <label class="floating-label">Voucher Type</label>
-                                    <select class="form-control customSelect floating-control" name="branch" required>
-                                        <option value="">Industry</option>
-                                        <option value="1">Industry 1</option>
-                                        <option value="2">Industry 2</option>
-                                        <option value="3">Industry 3</option>
-                                        <option value="4">Industry 4</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <label class="floating-label">Exhibitor</label>
-                                    <select class="form-control customSelect floating-control" name="branch" required>
-                                        <option value="">Industry</option>
-                                        <option value="1">Industry 1</option>
-                                        <option value="2">Industry 2</option>
-                                        <option value="3">Industry 3</option>
-                                        <option value="4">Industry 4</option>
-                                    </select>
-                                </div>
-                            </div>
+                    <div class="row">
+                       
+                        <div class="col-md-3">
                             <div class="form-group">
-                                <label class="floating-label">Exhibitor</label>
-                                <input type="text" class="form-control floating-control" name="Name" />
+                                <label class="floating-label">Bank Amount</label>
+                                <input type="text" class="form-control " placeholder="Enter Bank Amount" />
                             </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="floating-label">TDS Amount</label>
+                                <input type="text" class="form-control " placeholder="Enter TDS Amount" />
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="floating-label">Exch Diff</label>
+                                <input type="text" class="form-control " placeholder="Exch Diff" />
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="floating-label">On Acc Amt</label>
+                                <input type="text" class="form-control " placeholder="On Acc Amt" />
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="floating-label">Cr Amount</label>
+                                <input type="text" class="form-control " placeholder="Cr Amount" />
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="floating-label">Total Amount</label>
+                                <input type="text" class="form-control " placeholder="Total Amount here" />
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="form-group">
+                            <label class="floating-label">Exhibitor</label>
+                            <input type="text" class="form-control " name="Name" />
                         </div>
                         
                     </div>
@@ -344,25 +430,25 @@
             <div class="col-md-6">
               <div class="form-group">
                   <label class="floating-label">Exhibitor</label>
-                  <input type="text" class="form-control floating-control" name="Name" />
+                  <input type="text" class="form-control " name="Name" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                   <label class="floating-label">Receipt No</label>
-                  <input type="text" class="form-control floating-control" name="Name" />
+                  <input type="text" class="form-control " name="Name" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                   <label class="floating-label">Receipt Date From</label>
-                  <input type="text" class="form-control floating-control" name="Name" />
+                  <input type="text" class="form-control " name="Name" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                   <label class="floating-label">Receipt Date To</label>
-                  <input type="text" class="form-control floating-control" name="Name" />
+                  <input type="text" class="form-control " name="Name" />
               </div>
             </div>
           </div>
